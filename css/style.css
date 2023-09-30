@@ -1,0 +1,307 @@
+body {
+    font-family: 'Bitter', serif !important;
+}
+
+.header-top {
+    background-color: #49596b;
+    font-size: 16px;
+}
+
+.header-top span {
+    margin-left: 10px;
+}
+
+.icons {
+    margin-left: auto;
+}
+
+.icons i {
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: #455566;
+    color: #edeeee;
+    padding: 6px;
+    font-size: 13px;
+}
+.social-icon-box #fb{
+    margin-left: 0px;
+}
+
+.icons i:hover {
+    background-color: aqua;
+}
+
+/* header top css end */
+/* nav css start */
+
+.navbar-brand {
+    padding-bottom: 0px !important;
+    padding-top: 20px !important;
+}
+
+.nav-left h1 {
+    line-height: 0.5 !important;
+}
+
+.nav-left h1 a {
+    color: #445263 !important;
+    font-size: 32px !important;
+    font-weight: 600;
+}
+
+.nav-left p {
+    margin-bottom: 5px !important;
+    color: #6d7987 !important;
+}
+
+.nav-link {
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight: 400;
+    color: #445263;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #00d084;
+}
+
+/* nav end */
+/* banner css start */
+#banner {
+    height: 550px;
+    background-image: url(./images/edutehem\ bg-img.avif);
+    background-size: 100% 100%;
+}
+
+.content-box {
+    width: 550px;
+    color: #fff;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+.content-box h2 {
+    font-size: 47px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.content-box p {
+    font-size: 25px;
+}
+
+.content-box a {
+    padding: 10px 30px;
+    border-radius: 0px;
+    font-family: sans-serif;
+}
+
+/* banner css end */
+/* course css start */
+#course {
+    height: 550px;
+}
+
+.course-head {
+    font-size: 40px;
+}
+
+.img-content {
+    overflow: hidden;
+}
+
+.img-content img:hover {
+    transform: scale(1.2);
+    transition: all 0.4s linear;
+}
+
+.card-body {
+    text-align: left;
+    background-color: #f5f5f7;
+}
+
+.card-head {
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* course css end */
+/* about-us css start */
+#about-us {
+    height: 440px;
+    background-color: #ece8e7;
+}
+
+.about-video {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-video video {
+    height: 350px;
+}
+
+.about-head {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+.aboutus-btn {
+    border: 2px solid #01c6b8 !important;
+}
+
+.aboutus-btn:hover {
+    background-color: #01c6b8;
+}
+
+/* about us css end */
+/* services css start */
+#service {
+    height: 720px;
+}
+
+.service-heading {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.service-text {
+    font-size: 16px;
+}
+
+/* service css end */
+/* notice css start */
+#notice {
+    background: #49596b;
+    height: 270px;
+}
+
+.notice-button a {
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+/* notice css end */
+/* article css start */
+.article-card {
+    height: 400px;
+}
+
+.article-date {
+    font-size: 13px;
+}
+
+.article-head {
+    font-size: 25px;
+}
+
+/* article css end */
+/* testimonial css start */
+
+#testimonials {
+    height: 540px;
+    background-image: url(./images/testimonialbg-img.webp);
+    width: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.testimonial-head {
+    font-size: 56px;
+}
+
+.testimonial-box {
+    background-color: #fff;
+    opacity: 0.8;
+    width: 1000px;
+    height: 265px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial-img {
+    border-radius: 50% !important;
+    padding: 10px;
+    margin: 8px;
+}
+
+.inverted-img {
+    width: 55px;
+    height: 30px;
+}
+
+.testimonial-text {
+    line-height: 2;
+    padding-right: 30px;
+}
+
+.testimonials-name {
+    color: #3c3c3c;
+}
+
+/* testimonial css end */
+/* apply css start */
+#apply {
+    height: 140px;
+    background: #49596b;
+}
+
+.apply-button a {
+    padding: 20px 40px;
+}
+
+/* apply css end */
+/* footer css start */
+#site-footer {
+    background: #f5f5f7;
+}
+
+.footer-content {
+    border-bottom: 2px solid #a7a7aa;
+}
+
+.footer-head {
+    font-size: 30px;
+}
+
+.footer-item {
+    list-style-type: none !important;
+}
+
+.list-item {
+    border-bottom: 1px solid #e5e5e7;
+}
+
+.list-item a {
+
+    color: black;
+}
+
+.list-item a:hover {
+    color: #007bff;
+}
+
+.re-post {
+    font-size: 13px !important;
+}
+
+.footer-icon {
+    color: black;
+    margin: 7px;
+}
+
+.footer-end {
+    font-size: 15px;
+}
+
+/* footer css end */
